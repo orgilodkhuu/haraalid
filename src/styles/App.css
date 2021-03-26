@@ -1,0 +1,238 @@
+body{
+    height: auto;
+    margin: 0;
+    background-color: #040026;
+    /* background-color: white; */
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#root{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.container {
+    min-width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav{
+    width: 100%;
+    height: 75px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-left {
+    height: 55px;
+    width: 55px;
+}
+.nav-right{
+    width: 20%;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.selfinfo{
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    width: 60%;
+    border: 1px solid #3c006e;
+    margin-top: 120px;
+    font-size: 24px;
+    border-radius: 10px;
+    /* opacity: 0.0; */
+}
+
+.text{
+    width: 60%;
+    font-family: "europa", sans-serif;
+    word-wrap: break-word;
+    color: white;
+    font-weight: 300;
+    padding: 2%;
+}
+
+#c{
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.point{
+    height: 50%;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 24px;
+    color: #7510F7;
+    margin-right: 15px;
+    background-color: #040026;
+    outline: none;
+    border: 1px solid #b300ff;
+    border-radius: 1em;
+}
+.point:hover{
+    color: #b300ff;
+    box-shadow: 0px 0px 50px 0px #b300ff;
+}
+
+.about-section h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+.about-section h2 {
+    color: #ededed;
+    font-size: 1.5rem;
+    /* color: rgba(10, 10, 10, 0.9); */
+    font-family: "europa", sans-serif;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.about{
+    background-color: #7510F7;
+    height: 600px;
+    width: 100%;
+}
+
+#intro h1{
+    font-size: 2rem;
+    color: white;
+}
+#intro h3{
+    color: white;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    font-family: "europa", sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.skills{
+    height: 650px;
+    width: 60%;
+    box-shadow: 0px 0px 1px 0px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -200px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.skills h3{
+    font-size: 1.4rem;
+    margin: 5%;
+}
+.skills p{
+    font-size: 1.1em;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.skills span{
+    margin-top: 5%;
+    font-size: 1.2em;
+    color: #7510F7;
+    font-weight: 600;
+}
+.skills li{
+    font-size: 1.1em;
+    margin-bottom: 5%;
+}
+.skills-font{
+    font-family: "europa", sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.projects{
+    height: 400px;
+    width: 60%;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    border: 1px solid #7510F7;
+    border-radius: 1em;
+    box-shadow: 0 0 50px 1px #7510F7;
+}
+.projects h1{
+    text-align: center;
+    color: white;
+}
+.projects h2{
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    word-break: break-word;
+    font-family: "europa", sans-serif;
+    line-height: 1.5;
+    margin-bottom: 5%;
+}
+.projects img{
+    box-shadow: 0 0 0.5px 0 black;
+    height: 70%;
+    width: 30%;
+    border: 1px solid transparent;
+    transition: transform 330ms ease-in-out;
+}
+.projects img:hover{
+    transform: scale(1.5);
+}
+
+.footer{
+    height: 400px;
+    width: 100%;
+    background-color: #7510F7;
+}
+.footer h1{
+    color: white;
+    font-weight: 300;
+    font-size: 1.6rem;
+    margin: 2rem auto;
+}
+.footer img{
+    height: 25px;
+    width: 25px;
+}
+.footer button{
+    height: 50px;
+    width: 50px;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 100%;
+    background-color: #7510f7;
+}
+.footer h6{
+    color: white;
+    margin-top: 5%;
+    font-weight: 400;
+}
